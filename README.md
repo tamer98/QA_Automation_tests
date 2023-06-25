@@ -1,2 +1,2 @@
-# QA_Automation_tests
-Automation tests using selenium 
+# Automation tests using selenium 
+
