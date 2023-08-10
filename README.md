@@ -1,5 +1,7 @@
 # Automation tests using selenium 
 
+> The project was built in Java
+
 ### `Description`
 The assigned task involves testing the demo version of an employee management system hosted at
 > https://www.opencart.com/index.php?route=cms/demo.
