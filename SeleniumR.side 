@@ -1,0 +1,652 @@
+{
+  "id": "e2e01eca-c2e7-4a64-9a47-7188642e87bf",
+  "version": "2.0",
+  "name": "Hw3",
+  "url": "http://www.tutorialsninja.com/demo/",
+  "tests": [{
+    "id": "44ad9b44-b836-4797-ae5d-ea44a46c1ecd",
+    "name": "Login",
+    "commands": [{
+      "id": "8dadcca5-a9db-46c2-be29-30b32821706b",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "49609eb3-41e8-42c2-bf89-2110530a9b74",
+      "comment": "",
+      "command": "click",
+      "target": "css=.list-inline .dropdown-toggle",
+      "targets": [
+        ["css=.list-inline .dropdown-toggle", "css:finder"],
+        ["xpath=//div[@id='top-links']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://tutorialsninja.com/demo/index.php?route=account/account']", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "35ae3afc-1c37-4aa0-94ef-9cf67e35daf9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Login",
+      "targets": [
+        ["linkText=Login", "linkText"],
+        ["css=.dropdown-menu > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//div[@id='top-links']/ul/li[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://tutorialsninja.com/demo/index.php?route=account/login']", "xpath:href"],
+        ["xpath=//li[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "52c865aa-95fc-465b-b081-403693d2755d",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-email",
+      "targets": [
+        ["id=input-email", "id"],
+        ["name=email", "name"],
+        ["css=#input-email", "css:finder"],
+        ["xpath=//input[@id='input-email']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div[2]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "561bdd43-dc2f-43b0-a911-74df9ecc7ce5",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-email",
+      "targets": [
+        ["id=input-email", "id"],
+        ["name=email", "name"],
+        ["css=#input-email", "css:finder"],
+        ["xpath=//input[@id='input-email']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div[2]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "toto@gmail.com"
+    }, {
+      "id": "436bd5b0-726e-4aab-bc41-519af5d49a33",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-password",
+      "targets": [
+        ["id=input-password", "id"],
+        ["name=password", "name"],
+        ["css=#input-password", "css:finder"],
+        ["xpath=//input[@id='input-password']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div[2]/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "toto"
+    }, {
+      "id": "ac6962c3-f9d7-4d2c-8f8d-08f775ec943f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(3)",
+      "targets": [
+        ["css=.btn:nth-child(3)", "css:finder"],
+        ["xpath=//input[@value='Login']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div[2]/div/form/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "681f1005-080d-44f0-94e0-6ae935b1b675",
+    "name": "Product Search",
+    "commands": [{
+      "id": "b6bba517-4857-4e14-adc9-739a1e26396c",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f54c7e5c-3c77-417b-8d67-55df2d72d134",
+      "comment": "",
+      "command": "click",
+      "target": "css=.list-inline .dropdown-toggle",
+      "targets": [
+        ["css=.list-inline .dropdown-toggle", "css:finder"],
+        ["xpath=//div[@id='top-links']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://tutorialsninja.com/demo/index.php?route=account/account']", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b314485d-b5aa-4522-8113-fa5bb19ac916",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Login",
+      "targets": [
+        ["linkText=Login", "linkText"],
+        ["css=.dropdown-menu > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//div[@id='top-links']/ul/li[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://tutorialsninja.com/demo/index.php?route=account/login']", "xpath:href"],
+        ["xpath=//li[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4675100b-51fe-4ddc-b1c2-30420e901612",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-email",
+      "targets": [
+        ["id=input-email", "id"],
+        ["name=email", "name"],
+        ["css=#input-email", "css:finder"],
+        ["xpath=//input[@id='input-email']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div[2]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "53fa7fae-a702-4828-aae5-60d18faa7772",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-email",
+      "targets": [
+        ["id=input-email", "id"],
+        ["name=email", "name"],
+        ["css=#input-email", "css:finder"],
+        ["xpath=//input[@id='input-email']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div[2]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "toto@gmail.com"
+    }, {
+      "id": "5ef96de4-a384-435a-ad6f-f95b60d2efbb",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-password",
+      "targets": [
+        ["id=input-password", "id"],
+        ["name=password", "name"],
+        ["css=#input-password", "css:finder"],
+        ["xpath=//input[@id='input-password']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div[2]/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "toto"
+    }, {
+      "id": "f1799ad4-b508-42cc-aa93-09de983ff560",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(3)",
+      "targets": [
+        ["css=.btn:nth-child(3)", "css:finder"],
+        ["xpath=//input[@value='Login']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div[2]/div/form/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed2cd750-fa07-4bb2-a043-6da77bc04715",
+      "comment": "",
+      "command": "click",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f8140fd-2eaa-4581-b409-75990fa831bb",
+      "comment": "",
+      "command": "type",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Iphone"
+    }, {
+      "id": "2612743a-4949-4c76-b7e3-fd78dc7f502a",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "bd88a291-3fbe-475b-ba8a-785ca619e8e3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-search",
+      "targets": [
+        ["css=.fa-search", "css:finder"],
+        ["xpath=//div[@id='search']/span/button/i", "xpath:idRelative"],
+        ["xpath=//span/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a60aebd-309c-451f-a0dd-a704b875264d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.img-responsive",
+      "targets": [
+        ["css=.img-responsive", "css:finder"],
+        ["xpath=//img[@alt='iPhone']", "xpath:img"],
+        ["xpath=//div[@id='content']/div[3]/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "ce297dd5-99f5-430f-9313-dc3ab05c9372",
+    "name": "Register",
+    "commands": [{
+      "id": "010b36f2-5436-49be-9fa8-b7370f001e4a",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ef13442d-53a8-47d8-96cb-28372ebed5ee",
+      "comment": "",
+      "command": "click",
+      "target": "css=.list-inline .dropdown-toggle",
+      "targets": [
+        ["css=.list-inline .dropdown-toggle", "css:finder"],
+        ["xpath=//div[@id='top-links']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://tutorialsninja.com/demo/index.php?route=account/account']", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fdaa93e6-71a7-44ef-bf4f-2ed0bf99d53d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Register",
+      "targets": [
+        ["linkText=Register", "linkText"],
+        ["css=.dropdown-menu > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Register')]", "xpath:link"],
+        ["xpath=//div[@id='top-links']/ul/li[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://tutorialsninja.com/demo/index.php?route=account/register']", "xpath:href"],
+        ["xpath=//li[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Register')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "354e4906-af35-4406-b2d3-273461e4845a",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-firstname",
+      "targets": [
+        ["id=input-firstname", "id"],
+        ["name=firstname", "name"],
+        ["css=#input-firstname", "css:finder"],
+        ["xpath=//input[@id='input-firstname']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='account']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "92fcf145-3db6-4841-9eb9-caace6807fa2",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-firstname",
+      "targets": [
+        ["id=input-firstname", "id"],
+        ["name=firstname", "name"],
+        ["css=#input-firstname", "css:finder"],
+        ["xpath=//input[@id='input-firstname']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='account']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "arin"
+    }, {
+      "id": "a47c8846-1328-4db1-b767-5e889900570a",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-lastname",
+      "targets": [
+        ["id=input-lastname", "id"],
+        ["name=lastname", "name"],
+        ["css=#input-lastname", "css:finder"],
+        ["xpath=//input[@id='input-lastname']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='account']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "83cf0912-c774-4a42-b719-aca5629dcc10",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-lastname",
+      "targets": [
+        ["id=input-lastname", "id"],
+        ["name=lastname", "name"],
+        ["css=#input-lastname", "css:finder"],
+        ["xpath=//input[@id='input-lastname']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='account']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "popo"
+    }, {
+      "id": "5ff08a22-a343-4566-8cd3-6f2b093e92bb",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-email",
+      "targets": [
+        ["id=input-email", "id"],
+        ["name=email", "name"],
+        ["css=#input-email", "css:finder"],
+        ["xpath=//input[@id='input-email']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='account']/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2db6ad12-9f07-4e19-89c6-cec2bb4ddcf5",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-email",
+      "targets": [
+        ["id=input-email", "id"],
+        ["name=email", "name"],
+        ["css=#input-email", "css:finder"],
+        ["xpath=//input[@id='input-email']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='account']/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "popo@gmail.com"
+    }, {
+      "id": "9d56a623-3b9a-4b1f-9bf1-4ca1364e3e2d",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-telephone",
+      "targets": [
+        ["id=input-telephone", "id"],
+        ["name=telephone", "name"],
+        ["css=#input-telephone", "css:finder"],
+        ["xpath=//input[@id='input-telephone']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='account']/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "66dacbce-2196-434f-bf5d-1dcdae4dda50",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-telephone",
+      "targets": [
+        ["id=input-telephone", "id"],
+        ["name=telephone", "name"],
+        ["css=#input-telephone", "css:finder"],
+        ["xpath=//input[@id='input-telephone']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='account']/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": "209"
+    }, {
+      "id": "f7dd9ed3-6ece-4133-bdf5-3da0dbc7222b",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-password",
+      "targets": [
+        ["id=input-password", "id"],
+        ["name=password", "name"],
+        ["css=#input-password", "css:finder"],
+        ["xpath=//input[@id='input-password']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/form/fieldset[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff23fbd3-56f3-4969-aca1-c0a86c5af439",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-password",
+      "targets": [
+        ["id=input-password", "id"],
+        ["name=password", "name"],
+        ["css=#input-password", "css:finder"],
+        ["xpath=//input[@id='input-password']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/form/fieldset[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "popo"
+    }, {
+      "id": "3f2771f8-3307-4d13-ab2b-ed76a463cad9",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-confirm",
+      "targets": [
+        ["id=input-confirm", "id"],
+        ["name=confirm", "name"],
+        ["css=#input-confirm", "css:finder"],
+        ["xpath=//input[@id='input-confirm']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/form/fieldset[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "61c2a360-ad07-4589-be7c-7dddea2927d0",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-confirm",
+      "targets": [
+        ["id=input-confirm", "id"],
+        ["name=confirm", "name"],
+        ["css=#input-confirm", "css:finder"],
+        ["xpath=//input[@id='input-confirm']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/form/fieldset[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "popo"
+    }, {
+      "id": "1f98ceb6-8328-4299-b246-1b72a84cada4",
+      "comment": "",
+      "command": "click",
+      "target": "name=agree",
+      "targets": [
+        ["name=agree", "name"],
+        ["css=.pull-right > input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='agree']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cee0d4e2-243b-4c44-b142-f1c523849c3c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//input[@value='Continue']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/form/div/div/input[2]", "xpath:idRelative"],
+        ["xpath=//div/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c89f700c-512f-4fe5-9a3b-3d6f35add578",
+    "name": "Change Currency",
+    "commands": [{
+      "id": "4e4492b0-d0e6-446a-bef4-21d10fc426b2",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1efe7bf1-8e61-4800-9641-6c59ae0ef86f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.list-inline .dropdown-toggle",
+      "targets": [
+        ["css=.list-inline .dropdown-toggle", "css:finder"],
+        ["xpath=//div[@id='top-links']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://tutorialsninja.com/demo/index.php?route=account/account']", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d81af13-97ef-4011-ad5e-e5b383f7ea1e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Login",
+      "targets": [
+        ["linkText=Login", "linkText"],
+        ["css=.dropdown-menu > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//div[@id='top-links']/ul/li[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://tutorialsninja.com/demo/index.php?route=account/login']", "xpath:href"],
+        ["xpath=//li[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8c05987-514c-43ab-b662-3e2b9590c2bc",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-email",
+      "targets": [
+        ["id=input-email", "id"],
+        ["name=email", "name"],
+        ["css=#input-email", "css:finder"],
+        ["xpath=//input[@id='input-email']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div[2]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e5added-3333-4878-aafa-5a05a36b1819",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-email",
+      "targets": [
+        ["id=input-email", "id"],
+        ["name=email", "name"],
+        ["css=#input-email", "css:finder"],
+        ["xpath=//input[@id='input-email']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div[2]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "toto@gmail.com"
+    }, {
+      "id": "8709c383-92e1-4760-b722-2daa241887f0",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-password",
+      "targets": [
+        ["id=input-password", "id"],
+        ["name=password", "name"],
+        ["css=#input-password", "css:finder"],
+        ["xpath=//input[@id='input-password']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div[2]/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "toto"
+    }, {
+      "id": "6e1d3f57-2124-49e6-b6ed-70c5db5bd175",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(3)",
+      "targets": [
+        ["css=.btn:nth-child(3)", "css:finder"],
+        ["xpath=//input[@value='Login']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div/div[2]/div/form/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8ca9cb6-7902-4d6d-99d6-8632e5189f7a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-home",
+      "targets": [
+        ["css=.fa-home", "css:finder"],
+        ["xpath=//div[@id='account-account']/ul/li/a/i", "xpath:idRelative"],
+        ["xpath=//body/div[2]/ul/li/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6cf4b921-4d22-4966-979e-3c1458014569",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-layout:nth-child(2) button:nth-child(1)",
+      "targets": [
+        ["css=.product-layout:nth-child(2) button:nth-child(1)", "css:finder"],
+        ["xpath=(//button[@type='button'])[10]", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[2]/div[2]/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4bee1d9-5076-4b39-9bec-d28cd7d02822",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,629)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8e32fbe0-d9c5-4b66-84cf-febe7b892aca",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-caret-down",
+      "targets": [
+        ["css=.fa-caret-down", "css:finder"],
+        ["xpath=//form[@id='form-currency']/div/button/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9fc58f9-a078-40f8-857a-f0b09ab14922",
+      "comment": "",
+      "command": "click",
+      "target": "name=USD",
+      "targets": [
+        ["name=USD", "name"],
+        ["css=li:nth-child(3) > .currency-select", "css:finder"],
+        ["xpath=//button[@name='USD']", "xpath:attributes"],
+        ["xpath=//form[@id='form-currency']/div/ul/li[3]/button", "xpath:idRelative"],
+        ["xpath=//li[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'$ US Dollar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "741d3510-4232-485f-88ba-41a8f677659b",
+    "name": "Sanity",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["44ad9b44-b836-4797-ae5d-ea44a46c1ecd", "681f1005-080d-44f0-94e0-6ae935b1b675", "ce297dd5-99f5-430f-9313-dc3ab05c9372"]
+  }, {
+    "id": "64f943cc-f79d-4023-911f-e69b87e438f3",
+    "name": "Display",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c89f700c-512f-4fe5-9a3b-3d6f35add578"]
+  }],
+  "urls": ["http://www.tutorialsninja.com/demo/"],
+  "plugins": []
+}
