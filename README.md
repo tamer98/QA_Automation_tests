@@ -4,7 +4,7 @@
 
 ### `Description`
 ---
-The assigned task involves testing the demo version of an employee management system hosted at
+The tested website 
 > https://www.opencart.com/index.php?route=cms/demo.
 
 Testers can choose between frontend or backend testing. The testing process mandates the creation of a minimum of two test cases, including a sanity check and one comprehensive test. The goal is to craft tests that are both engaging and exhaustive, encompassing a broad spectrum of operational activities. If desired, collaboration in groups of three is possible.
